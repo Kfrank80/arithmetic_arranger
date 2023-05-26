@@ -1,10 +1,10 @@
-def arithmetic_arranger(arithmetic_problems, show_answers=False) -> str:
+def arithmetic_arranger(arithmetic_problems: list[str], show_answers: bool = False) -> str:
     """
 Create a function that receives a list of strings that are arithmetic problems
 and returns the problems arranged vertically and side-by-side.
 The function should optionally take a second argument.
 When the second argument is set to True, the answers should be displayed.
-    :return:
+    :return: A string with the problems arranged vertically and side-by-side.
     """
     first_line = second_line = third_line = fourth_line = f''
     arith_prob = list(arithmetic_problems)
