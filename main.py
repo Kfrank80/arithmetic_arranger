@@ -13,3 +13,5 @@ if __name__ == '__main__':
     tests.test_many_operations()
     tests.test_list_null()
     tests.test_only_plus_minus()
+
+   
