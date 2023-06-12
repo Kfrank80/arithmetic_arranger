@@ -27,3 +27,4 @@ class Test_arithmetic_arranger:
     def test_num_real(self):
         assert arithmetic_arranger(['20 + 25', '23.56 + 0.46', '-500 - 694'],
                                    False) == f'Error: Numbers must only contain digits.'
+
