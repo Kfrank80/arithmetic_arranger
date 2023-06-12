@@ -35,3 +35,4 @@ When the second argument is set to True, the answers should be displayed.
         return f'Error: Must enter at least one exercise.'
 
     return first_line + '\n' + second_line + '\n' + third_line + '\n' + fourth_line
+
